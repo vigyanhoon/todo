@@ -10,6 +10,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 10px 0 10px 0;
 }
 
 .todo-input {
@@ -29,5 +30,17 @@
 
 .todo-icon {
   margin: 10px;
+  cursor: pointer
+}
+
+.pagination{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.pagination-angle{
+  margin: 0 10px 0 10px;
   cursor: pointer
 }
